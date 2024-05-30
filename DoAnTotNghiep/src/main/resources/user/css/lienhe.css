@@ -1,0 +1,82 @@
+:root {
+  --primary-color: #FF6600;
+}
+.main__contact {
+  margin-bottom: 20px;
+}
+.main__contact .contact__title {
+  margin: 20px 0;
+}
+.main__contact .contact__title .title {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.main__contact .contact__form .contact__form-input {
+  margin-bottom: 15px;
+}
+.contact__form .contact__form-input .form-input,
+.contact__form .contact__form-input .form__textarea {
+  padding: 10px 15px;
+  background: #f8f8f8;
+  border: 1px solid transparent;
+  width: 100%;
+  font-size: 14px;
+}
+.main__contact .contact__form .contact__btn {
+}
+.main__contact .contact__form .contact__btn a {
+  text-align: center;
+  padding: 10px 30px;
+  background: var(--primary-color);
+  line-height: 30px;
+  border-radius: 10px;
+  color: white;
+}
+.main__contact .contact__form .contact__btn a:hover {
+  background: #000;
+}
+
+.main__contact .contact__description {
+  font-size: 16px;
+  line-height: 1.4;
+  text-align: justify;
+}
+.main__contact .contact__address {
+  margin: 10px 0;
+}
+.main__contact .contact__address li {
+  font-size: 16px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ccc;
+}
+.main__contact .contact__address li i {
+  font-size: 20px !important;
+  padding-right: 10px;
+}
+.contact__btn button {
+    background-color: #4CAF50; /* Màu nền cho nút */
+    border: none; /* Loại bỏ đường viền mặc định */
+    color: white; /* Màu chữ */
+    padding: 15px 32px; /* Đệm trong nút */
+    text-align: center; /* Căn giữa văn bản */
+    text-decoration: none; /* Loại bỏ gạch chân mặc định */
+    display: inline-block; /* Hiển thị dưới dạng khối nội dòng */
+    font-size: 16px; /* Cỡ chữ */
+    margin: 4px 2px; /* Khoảng cách xung quanh nút */
+    cursor: pointer; /* Con trỏ chuột sẽ là hình tay khi di chuột qua nút */
+    border-radius: 8px; /* Bo tròn các góc nút */
+    transition: background-color 0.3s, transform 0.3s; /* Hiệu ứng chuyển đổi màu nền và hiệu ứng nhấn */
+}
+
+.contact__btn button:hover {
+    background-color: #45a049; /* Màu nền khi di chuột qua */
+    transform: scale(1.05); /* Tăng kích thước nút khi di chuột qua */
+}
+
+.contact__btn button:active {
+    background-color: #3e8e41; /* Màu nền khi nhấn nút */
+    transform: scale(0.95); /* Giảm kích thước nút khi nhấn */
+}
+
